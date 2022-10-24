@@ -2,7 +2,7 @@ import cellpylib as cpl
 
 # initial point
 cellular_automaton = cpl.init_simple2d(480, 480)
-cellular_automaton[:, [60], [60]] = 1
+cellular_automaton[:, [240], [240]] = 1
 
 # Rule Table
 #(center,north,east,south,west)
